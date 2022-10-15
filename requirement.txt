@@ -1,0 +1,25 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+
+absl-py==1.0.0
+cudatoolkit==10.2.89
+d4rl=1.1
+dm-control=0.0.412862961
+dm-env=1.5
+dm-tree=0.1.6
+gym=0.21.0
+h5py=3.6.0
+ml-collections=0.1.1
+mujoco-py=2.0.2.8
+numpy=1.21.5
+pandas=1.1.5
+python=3.7.0
+scipy=1.7.3
+seaborn=0.11.2
+torch=1.10.1+cu113
+torchaudio=0.10.1+cu113
+torchvision=0.11.2+cu113
+tornado=6.2
+tqdm=4.62.3
+wandb=0.12.9
