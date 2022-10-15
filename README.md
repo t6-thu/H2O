@@ -14,7 +14,7 @@ Add this repo directory to your `PYTHONPATH` environment variable:
 ## Run Benchmark Experiments
 We benchmark H2O and its baselines on MuJoCo simulation environment and D4RL datasets. To begin, enter the folder `SimpleSAC`:
 ```
-cd SimpleSAC
+    cd SimpleSAC
 ```
 Then you can run H2O experiments using the following example commands.
 ### Simulated in HalfCheetah-v2 with 2x gravity and Medium Replay dataset
