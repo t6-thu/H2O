@@ -43,7 +43,7 @@ Then you can run H2O experiments using the following example commands.
         --joint_noise_std 1.0 
 ```
 
-## Visulization of Learning Curves
+## Visualization of Learning Curves
 You can resort to [wandb](https://wandb.ai/site) to login your personal account with your wandb API key.
 ```
     export WANDB_API_KEY=YOUR_WANDB_API_KEY
