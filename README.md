@@ -1,6 +1,7 @@
 # H2O
 <!-- ## When to Trust Your Simulator: Dynamics-AwareHybrid Offline-and-Online Reinforcement Learning -->
 H2O ([https://arxiv.org/abs/2206.13464](https://arxiv.org/abs/2206.13464)) is the first Hybrid Offline-and-Online Reinforcement Learning framework, that enables simultaneous policy learning with offline real-world datasets and simulation rollouts, while also addressing the sim-to-real dynamics gaps in imperfect simulation. H2O introduces a dynamics-aware policy evaluation scheme, which adaptively penalizes the Q-values as well as fixes the Bellman error on simulated samples with large dynamics gaps. Through extensive simulation and real-world tasks, as well as theoretical analysis, we demonstrate the superior performance of H2O against other cross-domain online and offline RL algorithms. This repository provides the codebase on which we benchmark H2O and baselines in MuJoCo environments.
+
 ![pipeline](H2O.png)
 
 ## Installation and Setups
