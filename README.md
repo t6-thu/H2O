@@ -43,7 +43,7 @@ Then you can run H2O experiments using the following example commands.
         --joint_noise_std 1.0 
 ```
 
-## Visulization of Learning curves
+## Visulization of Learning Curves
 You can resort to [wandb](https://wandb.ai/site) to login your personal account with your wandb API key.
 ```
     export WANDB_API_KEY=YOUR_WANDB_API_KEY
@@ -53,12 +53,12 @@ and run `wandb online` to turn on the online syncronization.
 ## Citation
 If you are using H2O framework or code for your project development, please cite the following paper:
 ```
-    @inproceedings{
-      niu2022when,
-      title={When to Trust Your Simulator: Dynamics-Aware Hybrid Offline-and-Online Reinforcement Learning},
-      author={Haoyi Niu and Shubham Sharma and Yiwen Qiu and Ming Li and Guyue Zhou and Jianming HU and Xianyuan Zhan},
-      booktitle={Thirty-Sixth Conference on Neural Information Processing Systems},
-      year={2022},
-      url={https://openreview.net/forum?id=zXE8iFOZKw}
-    }
+@inproceedings{
+  niu2022when,
+  title={When to Trust Your Simulator: Dynamics-Aware Hybrid Offline-and-Online Reinforcement Learning},
+  author={Haoyi Niu and Shubham Sharma and Yiwen Qiu and Ming Li and Guyue Zhou and Jianming HU and Xianyuan Zhan},
+  booktitle={Thirty-Sixth Conference on Neural Information Processing Systems},
+  year={2022},
+  url={https://openreview.net/forum?id=zXE8iFOZKw}
+}
 ```
